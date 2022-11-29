@@ -11,6 +11,10 @@
     font-size: 16px;
     background-color: #dde1e2; 
     width: 100%;
+    overscroll-behavior-y: contain; /*para no cargar al arrastrar hacia arriba*/
+    -webkit-user-select: none; /*para no poder hacer selecciones en ios*/
+    -webkit-tap-highlight-color: transparent; /*para no hacer hightlight en ios*/
+    -webkit-touch-callout: none; /*deshabilitar ventanas en IOS*/
 }
 
 /* Personalizados */
